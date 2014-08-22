@@ -32,7 +32,7 @@ public class Monitor {
     private EngineAPI engine;
     private int linesPlayed = 1;
     private long betPerLine = 1;
-    private int spinCount = 1000000;
+    private int spinCount = 100000;
     private boolean skipEngine = false; //skip current engine from simulation
 
     public void setSpinCount(int spinCount) {
